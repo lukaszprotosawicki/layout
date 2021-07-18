@@ -1,7 +1,17 @@
+import Sidebar from "./components/Sidebar";
+import Slider from "./components/Slider";
+import Author from "./components/Author";
+import Contact from "./components/Contact";
+import Tootsy from "./components/Tootsy";
+
 function App() {
   return (
     <div className="App">
-      <header className="App-header">hello world</header>
+      <Sidebar />
+      <Slider />
+      <Author />
+      <Contact />
+      <Tootsy />
     </div>
   );
 }
