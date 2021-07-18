@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.main_navigation {
+  display: flex;
+  background-color: rgb(50, 50, 50);
+  .contener_navigation {
+    height: 62px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    li {
+      list-style-type: none;
+      a {
+        margin: 2rem;
+        text-decoration: none;
+        color: white;
+        font-size: 13px;
+        font-weight: bold;
+      }
+      a:hover {
+        color: rgb(46, 179, 152);
+      }
+    }
+  }
+}
+
+.bottom_logo {
+  display: flex;
+  span {
+    height: 10px;
+    width: 40vw;
+    border-bottom: 1px solid rgb(228, 233, 235);
+  }
+}

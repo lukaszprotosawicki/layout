@@ -1,5 +1,5 @@
 function Slider() {
-  return <div className="App">slider</div>;
+  return <div>slider</div>;
 }
 
 export default Slider;

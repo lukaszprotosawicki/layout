@@ -1,5 +1,5 @@
 function Tootsy() {
-  return <div className="App">tootsy</div>;
+  return <div>tootsy</div>;
 }
 
 export default Tootsy;

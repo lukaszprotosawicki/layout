@@ -1,5 +1,5 @@
 function Author() {
-  return <div className="App">Author</div>;
+  return <div>Author</div>;
 }
 
 export default Author;
