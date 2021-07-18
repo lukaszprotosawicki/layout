@@ -30,10 +30,10 @@
 
 .bottom_logo {
   display: flex;
-  img {
-    height: 30px;
-    width: 80px;
-  }
+  //   img {
+  //     height: 30px;
+  //     width: 80px;
+  //   }
   span {
     height: 15px;
     width: 40vw;
@@ -204,6 +204,37 @@
 .bottom_logo {
   img {
     height: 20px;
-    width: 60px;
+    // width: 60px;
+  }
+}
+
+.container_author {
+  .container_bottoms {
+    .container_info {
+      p {
+        font-size: 13px;
+      }
+      .media_social {
+        display: block;
+        margin: 30px 0 0 0;
+        text-align: right;
+      }
+    }
+    .faceman {
+      img {
+        // height: 20vh;
+        width: 20vw;
+      }
+    }
+    .border_left {
+      margin-right: 20px;
+      height: auto;
+      border-right: 1px solid rgb(33, 157, 132);
+    }
+    .border_right {
+      margin-left: 10px;
+      height: auto;
+      border-left: 1px solid rgb(33, 157, 132);
+    }
   }
 }

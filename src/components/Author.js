@@ -11,7 +11,7 @@ function Author() {
     <div className="container_author">
       <div className="container_bottoms">
         <span className="border_left"></span>
-        <div>
+        <div className="faceman">
           <img src={faceman} alt="faceman" />
         </div>
         <div className="container_info">
