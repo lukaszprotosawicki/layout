@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   margin: 0 auto;
+  font-family: "Open Sans", sans-serif;
 }
 
 .main_navigation {
@@ -17,7 +18,7 @@
         margin: 2rem;
         text-decoration: none;
         color: white;
-        font-size: 13px;
+        font-size: 12px;
         font-weight: bold;
       }
       a:hover {
@@ -29,6 +30,10 @@
 
 .bottom_logo {
   display: flex;
+  img {
+    height: 30px;
+    width: 80px;
+  }
   span {
     height: 15px;
     width: 40vw;
@@ -54,11 +59,14 @@
   .container_bottoms {
     padding-top: 40px;
     display: flex;
-    margin: 20px;
+    margin: 20px 0 0 0;
     padding: 20px;
     justify-content: center;
     .container_info {
       margin: 0px 20px 20px 20px;
+      p {
+        font-size: 15px;
+      }
       .media_social {
         display: block;
         margin: 30px 0 0 0;
@@ -78,6 +86,95 @@
   }
 }
 
+.contact_container {
+  background-color: rgb(50, 50, 50);
+  color: white;
+  display: grid;
+
+  span {
+    margin-bottom: 15px;
+    height: 15px;
+    width: 94vw;
+    border-bottom: 1px solid rgb(34, 34, 34);
+  }
+  .contact_form {
+    display: block;
+    margin: 40px;
+    .container_content {
+      display: inline-flex;
+      padding-top: 10px;
+    }
+    .container_left {
+      .form {
+        display: inline-grid;
+        .input_name {
+          margin-top: 0px;
+        }
+        input {
+          margin-top: 20px;
+          padding: 10px;
+          height: 40px;
+          width: 55vw;
+          background-color: rgb(69, 69, 69);
+          color: white;
+          border: none;
+        }
+        textarea {
+          margin-top: 20px;
+          padding: 10px;
+          min-height: 100px;
+          min-width: 55vw;
+          background-color: rgb(69, 69, 69);
+          color: white;
+          border: none;
+        }
+        .input_message {
+          height: 150px;
+          text-align: left;
+        }
+        .button {
+          display: grid;
+
+          margin: 10px;
+          height: 40px;
+          width: 80px;
+          justify-content: center;
+          align-items: center;
+          color: white;
+          background-color: rgb(33, 157, 132);
+          border: 1px solid black;
+        }
+        button:hover {
+          background-color: rgb(20, 97, 81);
+        }
+      }
+    }
+    .container_right {
+      width: 20vw;
+      margin-left: 20px;
+      div {
+        p {
+          margin-bottom: 20px;
+          font-size: 15px;
+        }
+      }
+      .contact_date {
+        display: inline-block;
+        div {
+          display: inline-flex;
+          margin: 0px;
+          height: 40px;
+
+          img {
+            padding-right: 15px;
+            height: 18px;
+          }
+        }
+      }
+    }
+  }
+}
+
 .tootsy {
   display: flex;
   padding-left: 30px;
@@ -85,4 +182,28 @@
   color: gray;
   height: 40px;
   align-items: center;
+  font-size: 14px;
+}
+
+@media all and (min-width: 500px) and (max-width: 560px) {
+  .main_navigation {
+    .contener_navigation {
+      height: 52px;
+
+      img {
+        height: 40px;
+      }
+      li {
+        a {
+          font-size: 10px;
+        }
+      }
+    }
+  }
+}
+.bottom_logo {
+  img {
+    height: 20px;
+    width: 60px;
+  }
 }

@@ -23,7 +23,7 @@ function Main() {
       </div>
       <div className="bottom_logo">
         <span></span>
-        <img src={bottom_logo} alt="layout" />
+        <img src={bottom_logo} alt="bottom_logo" />
         <span></span>
       </div>
     </>
