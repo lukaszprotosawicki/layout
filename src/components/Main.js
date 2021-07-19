@@ -1,5 +1,6 @@
 import logo from "../img/logo.png";
 import bottom_logo from "../img/bottom_logo.png";
+import Burger from "./navigation/Burger";
 
 function Main() {
   return (
@@ -26,6 +27,7 @@ function Main() {
         <img src={bottom_logo} alt="bottom_logo" />
         <span></span>
       </div>
+      <Burger />
     </>
   );
 }
