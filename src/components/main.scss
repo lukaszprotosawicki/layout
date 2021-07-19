@@ -198,6 +198,21 @@
   font-size: 14px;
 }
 
+.position_slider {
+  display: flex;
+  float: left;
+  margin: 0;
+  span {
+    margin: 4px;
+    height: 8px;
+    width: 8px;
+    background-color: rgb(221, 210, 197);
+  }
+  .slider_color {
+    background-color: rgb(139, 135, 132);
+  }
+}
+
 @media all and (min-width: 450px) and (max-width: 564px) {
   .main_navigation {
     .contener_navigation {
